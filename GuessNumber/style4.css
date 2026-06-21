@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#wrapper {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+#guess {
+    display: block;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.guessField {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.guessSubmit {
+    padding: 8px 15px;
+    margin-left: 5px;
+}
+
+.resultParas {
+    margin-top: 20px;
+}
