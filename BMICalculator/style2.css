@@ -1,0 +1,41 @@
+body {
+    background-color: #f0f4f8;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 15px 0;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#weight-guide {
+    margin-top: 20px;
+}
