@@ -12,7 +12,7 @@ form.addEventListener("submit", function(e){
     }else if(weight === '' || weight < 0 || isNaN(weight)){
         results.innerHTML = `<span>Please give a valid input ${weight}<span>`;
     }else{
-        let bmi = (weight / ((height*height)/1000)).toFixed(2);
+        let bmi = (weight / ((height*height)/10000)).toFixed(2);
         results.innerHTML=`Your BMI is ${bmi}`;
          
         let h2 = document.querySelector("#Weight-Guide")
